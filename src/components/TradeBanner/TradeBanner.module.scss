@@ -1,0 +1,44 @@
+.tradeBaner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+  background-color: #1D1D1F;
+
+  p{
+    margin: 0 14px;
+    color: #F5F5F7;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+    text-align: center;
+    max-width: 250px;
+
+    span{
+      color: #2997FF;
+      cursor: pointer;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .tradeBaner{
+    p{
+      max-width: 330px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media(min-width: 1068px){
+  .tradeBaner{
+    p{
+      font-size: 17px;
+      max-width: 340px;
+    }
+  }
+}

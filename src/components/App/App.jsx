@@ -1,8 +1,12 @@
 import Nav from "../Nav/Nav"
+import TradeBaner from "../TradeBanner/TradeBanner"
 
 const App = () => {
   return(
-    <Nav></Nav>
+    <>
+      <Nav></Nav>
+      <TradeBaner></TradeBaner>
+    </>
   )
 }
 
