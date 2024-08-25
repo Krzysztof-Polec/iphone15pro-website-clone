@@ -44,6 +44,7 @@
   
     .navIcons{
       display: flex;
+      gap: 20px;
       
       img{
         width: 16px;
@@ -55,11 +56,11 @@
   }
 }
 
-@media(min-width: 834px){
+@media(min-width: 848px){
   .nav{
     .navContent{
       padding: 0 22px;
-      justify-content: center;
+      gap: 20px;
 
       img{
         width: 14px;
@@ -68,6 +69,12 @@
 
       div:first-of-type{
         display: flex;
+        width: 100%;
+
+        ul{
+          width: 100%;
+          justify-content: space-between;
+        }
       }
 
       .navIcons{
