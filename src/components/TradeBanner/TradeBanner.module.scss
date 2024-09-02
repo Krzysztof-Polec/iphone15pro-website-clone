@@ -1,4 +1,5 @@
 .tradeBaner{
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +18,11 @@
     span{
       color: #2997FF;
       cursor: pointer;
+
+      img{
+        width: 10px;
+        height: 10px;
+      }
 
       &:hover{
         text-decoration: underline;
