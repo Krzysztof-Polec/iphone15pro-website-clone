@@ -34,7 +34,6 @@ const HighlightsGallery = () => {
       scrollTrigger: {
         trigger: "#video",
         toggleActions: "restart none none none",
-        markers: true,
         start: "top 60%"
       },
       onComplete: () => {
