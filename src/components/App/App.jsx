@@ -1,3 +1,4 @@
+import CloserLookSection from "../CloserLookSection/CloserLookSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
 import Nav from "../Nav/Nav"
 import TradeBaner from "../TradeBanner/TradeBanner"
@@ -10,6 +11,7 @@ const App = () => {
       <TradeBaner></TradeBaner>
       <WelcomeSection></WelcomeSection>
       <HighlightsSection></HighlightsSection>
+      <CloserLookSection></CloserLookSection>
     </>
   )
 }

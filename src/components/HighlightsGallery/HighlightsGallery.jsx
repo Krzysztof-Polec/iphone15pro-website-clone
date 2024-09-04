@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
-import highlightsGallerySlides from "../utils/highlightsGallerySlides"
+import highlightsGallerySlides from "../../utils/highlightsGallerySlides"
 import styles from "./HighlightsGallery.module.scss"
 import playImg from "../../images/play.svg"
 import pauseImg from "../../images/pause.svg"

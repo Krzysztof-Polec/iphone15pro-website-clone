@@ -1,7 +1,7 @@
-import highlightFirstVideo from "../../videos/highlight-first.mp4"
-import highlightSecondVideo from "../../videos/hightlight-third.mp4"
-import highlightThirdVideo from "../../videos/hightlight-sec.mp4"
-import highlightFourthVideo from  "../../videos/hightlight-fourth.mp4"
+import highlightFirstVideo from "../videos/highlight-first.mp4"
+import highlightSecondVideo from "../videos/hightlight-third.mp4"
+import highlightThirdVideo from "../videos/hightlight-sec.mp4"
+import highlightFourthVideo from  "../videos/hightlight-fourth.mp4"
 
 const highlightsGallerySlides = [
   {

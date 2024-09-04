@@ -1,6 +1,6 @@
 .welcomeSection{
   width: 100%;
-  height: calc(100vh - 130px);
+  height: calc(100vh - 116px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -73,6 +73,7 @@
 @media(min-width: 734px){
   .welcomeSection{
     padding-top: 0;
+    height: calc(100vh - 122px);
 
     .welcomeVideo{
       div{
@@ -107,6 +108,8 @@
 
 @media(min-width: 1068px){
   .welcomeSection{
+    height: calc(100vh - 130px);
+
     .welcomeVideo{
       div{
         width: 1200px;
