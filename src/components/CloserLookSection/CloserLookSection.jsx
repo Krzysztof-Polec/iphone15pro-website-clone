@@ -8,7 +8,7 @@ import IphoneModelView from "../IphoneModelView/IphoneModelView"
 import closerLookSectionModels from "../../utils/closerLookSectionModels"
 import closerLookSectionSizes from "../../utils/closerLookSectionSizes"
 import styles from "./CloserLookSection.module.scss"
-import yellowImg from "../../images/yellow.jpg"
+import yellowImg from "../../images/yellow.avif"
 
 const CloserLookSection = () => {
   const [size, setSize] = useState("small")

@@ -1,7 +1,7 @@
-import yellowImg from "../images/yellow.jpg"
-import blueImg from "../images/blue.jpg"
-import whiteImg from "../images/white.jpg"
-import blackImg from "../images/black.jpg"
+import yellowImg from "../images/yellow.avif"
+import blueImg from "../images/blue.avif"
+import whiteImg from "../images/white.avif"
+import blackImg from "../images/black.avif"
 
 const closerLookSectionModels = [
   {
