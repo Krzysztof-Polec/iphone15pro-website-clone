@@ -1,10 +1,10 @@
+import { useRef } from "react"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import styles from "./ChipSection.module.scss"
 import chipImg from "../../images/chip.avif"
 import frameImg from "../../images/frame.png"
 import frameVideo from "../../videos/frame.mp4"
-import { useRef } from "react"
 
 const ChipSection = () => {
   const videoRef = useRef()
