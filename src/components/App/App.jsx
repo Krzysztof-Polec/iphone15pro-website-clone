@@ -1,3 +1,4 @@
+import ChipSection from "../ChipSection/ChipSection"
 import CloserLookSection from "../CloserLookSection/CloserLookSection"
 import DesignSection from "../DesignSection/DesignSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
@@ -14,6 +15,7 @@ const App = () => {
       <HighlightsSection></HighlightsSection>
       <CloserLookSection></CloserLookSection>
       <DesignSection></DesignSection>
+      <ChipSection></ChipSection>
     </>
   )
 }

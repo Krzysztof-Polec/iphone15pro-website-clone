@@ -1,0 +1,357 @@
+.chipSection{
+  padding: 100px 0 110px;
+
+  .chipSectionHeader{
+    width: 87.5%;
+    margin: auto;
+    text-align: center;
+
+    img{
+      width: 100px;
+      height: 100px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      margin-top: .8em;
+    }
+
+    h4{
+      margin-top: 45px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      max-width: 280px;
+      font-size: 40px;
+      line-height: 1.1;
+      font-weight: 600;
+      letter-spacing: 0em;
+      color: #F5F5F7;
+    }
+
+    p{
+      color: #86868B;
+      margin-top: 35px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      max-width: 280px;
+      font-size: 21px;
+      line-height: 1.1904761905;
+      font-weight: 600;
+      letter-spacing: .011em;
+    }
+  }
+
+  .chipSectionContent{
+    margin-top: 45px;
+    overflow: hidden;
+
+    .iphoneFrame{
+      display: flex;
+      justify-content: center;
+
+      .iphoneFrameContent{
+        position: relative;
+
+        img{
+          width: 322px;
+          height: 160px;
+          position: relative;
+          z-index: 2;
+        }
+
+        div{
+          position: absolute;
+          top: 9px;
+          left: 7px;
+          overflow: hidden;
+          width: 308px;
+          height: 142px;
+          border-radius: 20px;
+  
+          video{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }      
+    }
+
+    &>div:nth-child(2){
+      margin-top: 20px;
+      text-align: center;
+
+      p{
+        max-width: 280px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        color: #86868b;
+        font-size: 17px;
+        line-height: 1.2353641176;
+        font-weight: 600;
+        letter-spacing: -0.022em;
+      }
+    }
+  }
+
+  .chipSectionInformations{
+    width: 87.5%;
+    margin: auto;
+
+    &>div{
+      margin-top: 45px;
+      margin-bottom: 35px;
+
+      div{
+        max-width: 100%;
+
+        p{
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+          max-width: 280px;
+          color: #86868b;
+          font-size: 19px;
+          line-height: 1.4211026316;
+          font-weight: 600;
+          letter-spacing: .012em;
+          opacity: 0;
+          transform: translateY(10px);
+
+          &:nth-child(2){
+            margin-top: .8em;
+          }
+
+          span{
+            color: #F5F5F7;
+          }
+        }
+
+        &:last-of-type{
+          margin-top: .8em;
+
+          p{
+            font-size: 17px;
+            line-height: 1.4705882353;
+            font-weight: 600;
+            letter-spacing: -0.022em;
+
+            span{
+              font-size: 32px;
+              line-height: 1.125;
+              font-weight: 600;
+              letter-spacing: .004em;
+              margin: 4px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .chipSectionCta{
+    display: flex;
+    justify-content: center;
+
+    button{
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: rgb(66 66 69/70%);
+      border-radius: 32px;
+      backdrop-filter: blur(7px);
+      box-shadow: 0 0 1px rgb(232 232 237/11%);
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      padding: 15px;
+      margin-top: 60px;
+      color: #F5F5F7;
+      border: none;
+      cursor: pointer;
+
+      &:hover{
+        div{
+          svg{
+            fill: #fff;
+          }
+        }
+      }
+
+      div{
+        background-color: #0071e3;
+        width: 36px;
+        height: 36px;
+        border-radius: 50px;
+        padding: 5px;
+
+        svg{
+          width: 100%;
+          height: 100%;
+          fill: #f5f5f7d4;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .chipSection{
+    padding: 140px 0 110px;
+    
+    .chipSectionHeader{
+      width: 692px;
+
+      img{
+        width: 150px;
+        height: 150px;
+      }
+
+      h4{
+        margin-top: 70px;
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        max-width: 75%;
+      }
+
+      p{
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 1.1428571429;
+        font-weight: 600;
+        letter-spacing: .007em;
+        max-width: 58.3333333333%;
+      }
+    }
+
+    .chipSectionContent{
+      margin-top: 70px;
+  
+      .iphoneFrame{
+        .iphoneFrameContent{
+          img{
+            width: 696px;
+            height: 340px;
+          }
+  
+          div{
+            width: 666px;
+            height: 308px;
+            left: 15px;
+            top: 16px;
+            border-radius: 28px;
+          }
+        }
+      }
+    }
+
+    .chipSectionInformations{
+      width: 692px;
+
+      &>div{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        div{
+          max-width: 41.6666666667%;
+
+          p{
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 600;
+            letter-spacing: .011em;
+            max-width: none;
+          }
+
+          &:last-of-type{
+            p{
+              span{
+                font-size: 40px;
+                line-height: 1.1;
+                font-weight: 600;
+                letter-spacing: 0em;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .chipSectionCta{
+      button{
+        line-height: 1.2353em;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+
+@media(min-width: 1068px){
+  .chipSection{
+    padding: 200px 0 110px;
+
+    .chipSectionHeader{
+      width: 980px;
+
+      img{
+        width: 180px;
+        height: 180px;
+      }
+
+      h4{
+        margin-top: 100px;
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+        max-width: 100%;
+
+        br:nth-child(2){
+          display: none;
+        }
+      }
+
+      p{
+        max-width: 100%;
+      }
+    }
+
+    .chipSectionContent{
+      margin-top: 100px;
+
+      .iphoneFrame{
+        .iphoneFrameContent{
+          img{
+            width: 1054px;
+            height: 516px;
+          }
+
+          div{
+            width: 1012px;
+            height: 468px;
+            border-radius: 30px;
+            left: 21px;
+            top: 24px;
+          }
+        }
+      }
+    }
+
+    .chipSectionInformations{
+      width: 980px;
+
+      &>div{
+        margin-top: 60px;
+        justify-content: space-around;
+
+        div{
+          max-width: 33.3333333333%;
+        }
+      }
+    }
+  }
+}
