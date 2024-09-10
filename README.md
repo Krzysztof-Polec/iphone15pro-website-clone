@@ -4,7 +4,7 @@ My personal clone page - iPhone 15 Pro
 
 ## Technologies
 
-* React
+* React + Vite
 * R3F
 * GSAP
 
