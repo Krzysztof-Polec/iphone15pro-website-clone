@@ -6,6 +6,7 @@ import HighlightsSection from "../HighlightsSection/HighlightsSection"
 import Nav from "../Nav/Nav"
 import TradeBaner from "../TradeBanner/TradeBanner"
 import WelcomeSection from "../WelcomeSection/WelcomeSection"
+import Zoom5xSection from "../Zoom5xSection/Zoom5xSection"
 
 const App = () => {
   return(
@@ -18,6 +19,7 @@ const App = () => {
       <DesignSection></DesignSection>
       <ChipSection></ChipSection>
       <CameraSection></CameraSection>
+      <Zoom5xSection></Zoom5xSection>
     </>
   )
 }
