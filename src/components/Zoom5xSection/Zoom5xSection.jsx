@@ -36,7 +36,6 @@ const Zoom5xSection = () => {
     gsap.to(`.${styles.zoom5xSectionContent}>div>video`, {
       scrollTrigger: {
         trigger: `.${styles.zoom5xSectionContent}>div>video`,
-        markers: true,
         start: "top 40%"
       },
       onComplete: () => {
