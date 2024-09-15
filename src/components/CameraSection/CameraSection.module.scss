@@ -1,0 +1,552 @@
+.cameraSection{
+  padding: 100px 0 110px;
+  overflow: hidden;
+
+  .cameraSectionHeader{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+    overflow: hidden;
+
+    &>div{
+      h4{
+        max-width: 280px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+      }
+
+      p{
+        margin-top: 35px;
+        color: rgb(134, 134, 139);
+        max-width: 280px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        font-size: 21px;
+        line-height: 1.1904761905;
+        font-weight: 600;
+        letter-spacing: .011em;
+      }
+    }
+  }
+
+  .cameraSectionImageWrapper{
+    overflow: hidden;
+    width: 880px;
+    height: 510px;
+    margin: 75px auto 45px;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .cameraSectionIguanaImageCaption{
+    width: 280px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+
+    p{
+      color: #86868b;
+      font-size: 17px;
+      line-height: 1.2353641176;
+      font-weight: 600;
+      letter-spacing: -0.022em;
+    }
+  }
+
+  .cameraSectionLenses{
+    padding-top: 100px;
+
+    &>div:first-of-type{
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      width: 87.5%;
+
+      p{
+        max-width: 280px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        font-size: 19px;
+        line-height: 1.4211026316;
+        font-weight: 600;
+        letter-spacing: .012em;
+        color: #86868b;
+
+        span{
+          color: #F5F5F7;
+        }
+      }
+    }
+
+    .lensGallery{
+      padding-top: 27px;
+
+      &>div{
+        margin-bottom: 10px;
+        width: 87.5%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+
+        ul{
+          display: grid;
+          gap: 10px;
+          grid-auto-flow: column;
+          width: fit-content;
+          list-style: none;
+          max-width: 280px;
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+
+          li{
+            width: 274px;
+            height: 365px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &.active{
+              img{
+                opacity: 1;
+                transition: 1s ease-in-out;
+              }
+            }
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              opacity: 0.3;
+              transition: 0.5s ease-in;
+            }
+          }
+        }
+      }
+    }
+
+    .lensGalleryController{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &>div:first-of-type{
+        width: 87.5%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        margin-top: 13px;
+
+        &>p{
+          color: #86868b;
+          text-align: center;
+          max-width: 280px;
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+          font-size: 17px;
+          line-height: 1.2353641176;
+          font-weight: 600;
+          letter-spacing: -0.022em;
+
+          span{
+            color: #F5F5F7;
+          }
+        }
+      }
+
+      &>div:last-of-type{
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        width: 87.5%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+
+        div{
+          cursor: pointer;
+          background-color: rgb(51,51,54);
+          border-radius: 36px;
+          width: 36px;
+          height: 36px;
+          padding: 6px;
+
+          &.disabled{
+            opacity: 0.7;
+            cursor: default;
+          }
+
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .cameraSectionDetails{
+    overflow: hidden;
+
+    &>div:first-of-type{
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      width: 87.5%;
+      padding: 70px 0;
+      border-bottom: 1px solid #424245;
+
+      &>div{
+        display: flex;
+        flex-direction: column;
+
+        &>div{
+          flex-basis: 100%;
+
+          &:first-of-type{
+            display: flex;
+            justify-content: center;
+          }
+
+          img{
+            margin: 14px 0 45px;
+            width: 275px;
+            height: 561px;
+          }
+
+          p{
+            max-width: 280px;
+            margin-inline-start: auto;
+            margin-inline-end: auto;
+            color: #86868b;
+            font-size: 19px;
+            line-height: 1.4211026316;
+            font-weight: 600;
+            letter-spacing: .012em;
+
+            &:last-of-type{
+              margin-top: 0.8em;
+            }
+
+            span{
+              color: #F5F5F7;
+            }
+          }
+        }
+      }
+    }
+
+    &>div:last-of-type{
+      width: 87.5%;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+
+      p{
+        margin-top: 100px;
+        text-align: center;
+        max-width: 280px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        color: #F5F5F7;
+      }
+    }
+  }
+
+  .cameraSectionCta{
+    display: flex;
+    justify-content: center;
+
+    button{
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: rgb(66 66 69/70%);
+      border-radius: 32px;
+      backdrop-filter: blur(7px);
+      box-shadow: 0 0 1px rgb(232 232 237/11%);
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      padding: 15px;
+      margin-top: 95px;
+      color: #F5F5F7;
+      border: none;
+      cursor: pointer;
+
+      &:hover{
+        div{
+          svg{
+            fill: #fff;
+          }
+        }
+      }
+
+      div{
+        background-color: #0071e3;
+        width: 36px;
+        height: 36px;
+        border-radius: 50px;
+        padding: 5px;
+
+        svg{
+          width: 100%;
+          height: 100%;
+          fill: #f5f5f7d4;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .cameraSection{
+    padding: 140px 0 110px;
+
+    .cameraSectionHeader{
+      width: 692px;
+
+      &>div{
+        h4{
+          max-width: none;
+          font-size: 62px;
+          line-height: 1.0625;
+          font-weight: 600;
+          letter-spacing: -0.009em;
+        }
+
+        p{
+          margin-top: 40px;
+          font-size: 28px;
+          line-height: 1.1428571429;
+          font-weight: 600;
+          letter-spacing: .007em;
+          max-width: none;
+        }
+      }      
+    }
+
+    .cameraSectionImageWrapper{
+      margin: 75px auto 45px;
+    }
+
+    .cameraSectionIguanaImageCaption{
+      width: 692px;
+
+      p{
+        font-size: 19px;
+        line-height: 1.2105263158;
+        font-weight: 600;
+        letter-spacing: .012em;
+      }
+    }
+
+    .cameraSectionLenses{
+      padding-top: 140px;
+
+      &>div:first-of-type{
+        width: 692px;
+  
+        p{
+          max-width: 41.6666666667%;
+          margin-inline-start: unset;
+          margin-inline-end: unset;
+          font-size: 21px;
+          line-height: 1.381002381;
+          font-weight: 600;
+          letter-spacing: .011em;
+        }
+      }
+
+      .lensGallery{
+        padding-top: 50px;
+
+        &>div{
+          width: 692px;
+
+          ul{
+            max-width: none;
+
+            li{
+              width: 653px;
+              height: 490px;
+            }
+          }
+        }
+      }
+
+      .lensGalleryController{
+        position: relative;
+        max-width: 980px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+
+        &>div:first-of-type{
+          width: 652px;
+          margin-top: 25px;
+  
+          &>p{
+            font-size: 19px;
+            line-height: 1.2105263158;
+            font-weight: 600;
+            letter-spacing: .012em;
+          }
+        }
+  
+        &>div:last-of-type{
+          position: absolute;
+          top: 18px;
+          right: 50px;
+        }
+      }
+    }
+
+    .cameraSectionDetails{
+      &>div:first-of-type{
+        width: 692px;
+  
+        &>div{
+          flex-direction: row;
+          align-items: center;
+
+          &>div{
+            flex-basis: 41.6666666667%;
+  
+            &:first-of-type{
+              display: flex;
+              justify-content: center;
+            }
+
+            &:last-of-type{
+              margin-inline-start: 16.6666666667%;
+            }
+  
+            img{
+              margin: 50px 0;
+              width: 349px;
+              height: 713px;
+            }
+  
+            p{
+              max-width: none;
+              font-size: 21px;
+              line-height: 1.381002381;
+              font-weight: 600;
+              letter-spacing: .011em;
+            }
+          }
+        }
+      }
+
+      &>div:last-of-type{
+        width: 692px;
+  
+        p{
+          margin-top: 135px;
+          max-width: none;
+          font-size: 40px;
+          line-height: 1.1;
+          font-weight: 600;
+          letter-spacing: 0em;
+        }
+      }
+    }
+
+    .cameraSectionCta{
+      button{
+        line-height: 1.2353em;
+        font-size: 17px;
+      }
+    }
+  }  
+}
+
+@media(min-width: 1068px){
+  .cameraSection{
+    padding: 200px 0 110px;
+
+    .cameraSectionHeader{
+      width: 980px;
+
+      &>div{
+        h4{
+          font-size: 79px;
+          line-height: 1.05;
+          font-weight: 600;
+          letter-spacing: -0.015em;
+        }
+      }
+    }
+
+    .cameraSectionImageWrapper{
+      margin: 75px auto 60px;
+      width: 1314px;
+      height: 873px;
+    }
+
+    .cameraSectionIguanaImageCaption{
+      width: 980px;
+    }
+
+    .cameraSectionLenses{
+      padding-top: 170px;
+
+      &>div:first-of-type{
+        width: 980px;
+
+        p{
+          margin-inline-start: 16.6666666667%;
+          max-width: 33.3333333333%;
+        }
+      }
+
+      .lensGallery{
+        padding-top: 60px;
+
+        &>div{
+          width: 980px;
+
+          ul{
+            margin-inline-start: 16.6666666667%;
+          }
+        }
+      }
+    }
+
+    .cameraSectionDetails{
+      &>div:first-of-type{
+        width: 980px;
+        padding: 100px 0;
+  
+        &>div{
+          &>div{
+            flex-basis: 33.3333333333%;
+  
+            &:first-of-type{
+              margin-inline-start: 16.6666666667%;
+            }
+
+            &:last-of-type{
+              margin-inline-start: 8.3333333333%;
+            }
+  
+            img{
+              margin: 60px 0;
+              width: 329px;
+              height: 671px;
+            }
+          }
+        }
+      }
+
+      &>div:last-of-type{
+        width: 980px;
+      }
+    }
+  }
+}
