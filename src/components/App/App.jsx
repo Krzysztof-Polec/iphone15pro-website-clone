@@ -6,6 +6,7 @@ import DesignSection from "../DesignSection/DesignSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
 import Nav from "../Nav/Nav"
 import TradeBaner from "../TradeBanner/TradeBanner"
+import UsbcSection from "../UsbcSection/UsbcSection"
 import WelcomeSection from "../WelcomeSection/WelcomeSection"
 import Zoom5xSection from "../Zoom5xSection/Zoom5xSection"
 
@@ -22,6 +23,7 @@ const App = () => {
       <CameraSection></CameraSection>
       <Zoom5xSection></Zoom5xSection>
       <ActionButtonSection></ActionButtonSection>
+      <UsbcSection></UsbcSection>
     </>
   )
 }
