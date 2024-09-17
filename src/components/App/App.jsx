@@ -1,3 +1,4 @@
+import ActionButtonSection from "../ActionButtonSection/ActionButtonSection"
 import CameraSection from "../CameraSection/CameraSection"
 import ChipSection from "../ChipSection/ChipSection"
 import CloserLookSection from "../CloserLookSection/CloserLookSection"
@@ -20,6 +21,7 @@ const App = () => {
       <ChipSection></ChipSection>
       <CameraSection></CameraSection>
       <Zoom5xSection></Zoom5xSection>
+      <ActionButtonSection></ActionButtonSection>
     </>
   )
 }
