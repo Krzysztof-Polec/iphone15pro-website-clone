@@ -68,8 +68,7 @@ const BatterySection = () => {
       scrollTrigger: {
         trigger: `.${styles.batterySectionInformations}>div:last-of-type>div:last-of-type`,
         start: "top 70%",
-        toggleActions: "play none none reverse",
-        markers: true
+        toggleActions: "play none none reverse"
       }
     })
   })
