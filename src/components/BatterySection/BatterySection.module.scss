@@ -1,0 +1,321 @@
+.batterySection{
+  padding: 100px 0 110px;
+
+  .batterySectionHeader{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+
+    h4{
+      max-width: 280px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      font-size: 40px;
+      line-height: 1.1;
+      font-weight: 600;
+      letter-spacing: 0em;
+      color: #F5F5F7;
+    }
+
+    p{
+      margin-top: 35px;
+      max-width: 280px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      color: #86868b;
+      font-size: 21px;
+      line-height: 1.1904761905;
+      font-weight: 600;
+      letter-spacing: .011em;
+    }
+  }
+
+  .batterySectionContent{
+    overflow: hidden;
+    margin: 45px 0;
+
+    .batterySectionContentPhone{
+      display: grid;
+      grid-template-areas: "phone";
+      justify-content: center;
+
+      img{
+        grid-area: phone;
+        width: 322px;
+        height: 160px;
+        position: relative;
+        z-index: 2;
+      }
+
+      video{
+        grid-area: phone;
+        position: relative;
+        top: 9px;
+        left: 7px;
+        overflow: hidden;
+        width: 308px;
+        height: 142px;
+        border-radius: 20px;
+      }
+    }
+  }
+  
+  .batterySectionInformations{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+    display: flex;
+    flex-direction: column;
+
+    &>div{
+      max-width: 100%;
+
+      &:first-of-type{
+        &>p{
+          max-width: 280px;
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+          color: #86868b;
+          font-size: 17px;
+          line-height: 1.4705882353;
+          font-weight: 600;
+          letter-spacing: -0.022em;
+
+          &:last-of-type{
+            margin-top: 32px;
+          }
+
+          span{
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+            color: #F5F5F7;
+            margin: 4px 0;
+          }
+        }
+      }
+
+      &:last-of-type{
+        margin-top: 22px;
+
+        &>p:first-of-type{
+          max-width: 280px;
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+          color: #86868b;
+          font-size: 21px;
+          line-height: 1.1904761905;
+          font-weight: 600;
+          letter-spacing: .011em;
+
+          span{
+            color: #F5F5F7;
+          }
+        }
+
+        &>div{
+          margin-top: 36px;
+          border-top: 1px solid #86868b;
+          padding-top: 20px;
+          display: flex;
+          max-width: 280px;
+          margin-inline-start: auto;
+          margin-inline-end: auto;
+
+          img{
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+            margin-inline-end: 18px;
+          }
+
+          p{
+            font-size: 17px;
+            line-height: 1.4705882353;
+            font-weight: 600;
+            letter-spacing: -0.022em;
+            color: #86868b;
+          }
+
+          &:last-of-type{
+            margin-top: 0;
+            border: none;
+
+            img{
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .batterySection{
+    padding: 140px 0 110px;
+
+    .batterySectionHeader{
+      width: 692px;
+
+      h4{
+        font-size: 62px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        margin-inline-start: 16.6666666667%;
+        max-width: 66.6666666667%;
+        text-align: center;
+      }
+
+      p{
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 1.1428571429;
+        font-weight: 600;
+        letter-spacing: .007em;
+        max-width: 83.3333333333%;
+        margin-inline-start: 8.3333333333%;
+        text-align: center;
+      }
+    }
+
+    .batterySectionContent{
+      margin: 70px 0;
+
+      .batterySectionContentPhone{
+        img{
+          width: 696px;
+          height: 340px;
+        }
+
+        video{
+          width: 666px;
+          height: 308px;
+          left: 15px;
+          top: 16px;
+          border-radius: 28px;
+        }
+      }
+    }
+
+    .batterySectionInformations{
+      width: 692px;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      &>div{
+        max-width: 41.6666666667%;
+  
+        &:first-of-type{
+          &>p{
+            max-width: 180px;
+            font-size: 21px;
+            line-height: 1.381002381;
+            letter-spacing: .011em;
+  
+            span{
+              font-size: 64px;
+              line-height: 1.0625;
+              letter-spacing: -0.009em;
+            }
+          }
+        }
+  
+        &:last-of-type{
+          margin-top: 32px;
+          max-width: 50%;
+  
+          &>p:first-of-type{
+            max-width: none;
+            font-size: 28px;
+            line-height: 1.1428571429;
+            letter-spacing: .007em;
+          }
+  
+          &>div{
+            margin-top: 74px;
+            max-width: none;
+  
+            img{
+              margin-top: 6px;
+            }
+  
+            p{
+              font-size: 21px;
+              line-height: 1.381002381;
+              letter-spacing: .011em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 1068px){
+  .batterySection{
+    padding: 200px 0 110px;
+
+    .batterySectionHeader{
+      width: 980px;
+      
+      h4{
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+      }
+    }
+
+    .batterySectionContent{
+      margin: 100px 0;
+
+      .batterySectionContentPhone{
+        img{
+          width: 1054px;
+          height: 516px;
+        }
+
+        video{
+          width: 1012px;
+          height: 468px;
+          border-radius: 30px;
+          left: 21px;
+          top: 24px;
+        }
+      }
+    }
+
+    .batterySectionInformations{
+      width: 980px;
+      justify-content: space-around;
+
+      &>div{
+        width: 100%;
+        
+        &:first-of-type{
+          &>p{
+            max-width: none;
+
+            span{
+              font-size: 80px;
+              line-height: 1.05;
+              letter-spacing: -0.015em;
+            }
+          }
+        }
+  
+        &:last-of-type{
+          margin-top: 45px;
+          max-width: 41.6666666667%;
+
+          &>div{
+            margin-top: 74px;
+          }
+        }
+      }
+    }
+  }
+}
