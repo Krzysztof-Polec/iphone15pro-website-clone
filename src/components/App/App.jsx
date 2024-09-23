@@ -9,6 +9,7 @@ import Nav from "../Nav/Nav"
 import SafetySection from "../SafetySection/SafetySection"
 import TradeBaner from "../TradeBanner/TradeBanner"
 import UsbcSection from "../UsbcSection/UsbcSection"
+import ValuesSection from "../ValuesSection/ValuesSection"
 import WelcomeSection from "../WelcomeSection/WelcomeSection"
 import Zoom5xSection from "../Zoom5xSection/Zoom5xSection"
 
@@ -28,6 +29,7 @@ const App = () => {
       <UsbcSection></UsbcSection>
       <BatterySection></BatterySection>
       <SafetySection></SafetySection>
+      <ValuesSection></ValuesSection>
     </>
   )
 }
