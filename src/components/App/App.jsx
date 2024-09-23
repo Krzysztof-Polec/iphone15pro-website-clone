@@ -6,6 +6,7 @@ import CloserLookSection from "../CloserLookSection/CloserLookSection"
 import DesignSection from "../DesignSection/DesignSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
 import Nav from "../Nav/Nav"
+import SafetySection from "../SafetySection/SafetySection"
 import TradeBaner from "../TradeBanner/TradeBanner"
 import UsbcSection from "../UsbcSection/UsbcSection"
 import WelcomeSection from "../WelcomeSection/WelcomeSection"
@@ -26,6 +27,7 @@ const App = () => {
       <ActionButtonSection></ActionButtonSection>
       <UsbcSection></UsbcSection>
       <BatterySection></BatterySection>
+      <SafetySection></SafetySection>
     </>
   )
 }
