@@ -1,7 +1,41 @@
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
 import styles from "./Ios17Section.module.scss"
 import ios17Img from "../../images/ios17.avif"
 
 const Ios17Section = () => {
+  useGSAP(() => {
+    gsap.from(`.${styles.ios17SectionInformations} p:nth-child(1)`, {
+      y: 10,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: `.${styles.ios17SectionInformations} p:nth-child(1)`,
+        start: "top 80%",
+        toggleActions: "play none none reverse"
+      }
+    })
+
+    gsap.from(`.${styles.ios17SectionInformations} p:nth-child(2)`, {
+      y: 10,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: `.${styles.ios17SectionInformations} p:nth-child(2)`,
+        start: "top 80%",
+        toggleActions: "play none none reverse"
+      }
+    })
+
+    gsap.from(`.${styles.ios17SectionInformations} p:nth-child(3)`, {
+      y: 10,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: `.${styles.ios17SectionInformations} p:nth-child(3)`,
+        start: "top 80%",
+        toggleActions: "play none none reverse"
+      }
+    })
+  }, [])
+
   return(
     <section className={styles.ios17Section}>
       <div className={styles.ios17SectionHeader}>
