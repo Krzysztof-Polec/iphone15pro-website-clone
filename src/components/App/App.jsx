@@ -5,6 +5,7 @@ import ChipSection from "../ChipSection/ChipSection"
 import CloserLookSection from "../CloserLookSection/CloserLookSection"
 import DesignSection from "../DesignSection/DesignSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
+import Ios17Section from "../Ios17Section/Ios17Section"
 import Nav from "../Nav/Nav"
 import SafetySection from "../SafetySection/SafetySection"
 import TradeBaner from "../TradeBanner/TradeBanner"
@@ -30,6 +31,7 @@ const App = () => {
       <BatterySection></BatterySection>
       <SafetySection></SafetySection>
       <ValuesSection></ValuesSection>
+      <Ios17Section></Ios17Section>
     </>
   )
 }
