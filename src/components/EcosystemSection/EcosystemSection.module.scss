@@ -1,0 +1,211 @@
+.ecosystemSection{
+  padding: 100px 0;
+  margin-top: 100px;
+  background-color: #101010;
+
+  .ecosystemSectionHeader{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+    padding-bottom: 38px;
+
+    h3{
+      color: #86868b;
+      max-width: 280px;
+      font-size: 32px;
+      line-height: 1.125;
+      font-weight: 600;
+      letter-spacing: .004em;
+    }
+  }
+
+  .ecosystemSectionContent{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+    background-color: black;
+    border-radius: 28px;
+
+    .acordion{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+      height: 830px;
+
+      .acordionItem{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        cursor: pointer;
+
+        &:not(:last-of-type){
+          border-bottom: 1px solid #424245;
+        }
+
+        h4{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 21px;
+          line-height: 1.1904761905;
+          font-weight: 600;
+
+          img{
+            width: 1em;
+            transition: transform 0.3s ease;
+
+            &.open{
+              transform: rotate(180deg);
+            }
+          }
+        } 
+
+        &:first-of-type{
+          .acordionItemContent{
+            opacity: 1;
+            height: auto;
+          }
+        }
+
+        .acordionItemContent{
+          overflow: hidden;
+          opacity: 0;
+          height: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          p{
+            color: #86868b;
+            font-size: 14px;
+            line-height: 1.4285914286;
+            font-weight: 400;
+            letter-spacing: -0.016em;
+            margin-inline-end: 28px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+          }
+
+          img{
+            width: 255px;
+            margin-bottom: 25px;
+          }
+        }    
+      } 
+    }
+
+    .acordionBigImage{
+      display: none;
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .ecosystemSection{
+    padding: 140px 0;
+    margin-top: 140px;
+
+    .ecosystemSectionHeader{
+      width: 95%;
+      max-width: 932px;
+      padding-bottom: 50px;
+
+      h3{
+        max-width: 75%;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: 0em;
+
+        br{
+          display: none;
+        }
+      }
+    }
+
+    .ecosystemSectionContent{
+      width: 95%;
+      max-width: 932px;
+
+      .acordion{
+        padding: 46px;
+        height: 930px;
+
+        .acordionItem{
+          &:nth-child(2){
+            .acordionItemContent{
+              img{
+                width: 550px;
+              }
+            }
+          }
+
+          h4{
+            font-size: 28px;
+            line-height: 1.1428571429;
+            letter-spacing: .007em;
+          }
+
+          .acordionItemContent{
+            p{
+              font-size: 17px;
+              line-height: 1.4705882353;
+              letter-spacing: -0.022em;
+            }
+
+            img{
+              width: 350px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 1068px){
+  .ecosystemSection{
+    padding: 200px 0;
+    margin-top: 150px;
+
+    .ecosystemSectionHeader{
+      max-width: 1260px;
+
+      h3{
+        font-size: 48px;
+        line-height: 1.0834933333;
+        letter-spacing: -0.003em;
+      }
+    }
+
+    .ecosystemSectionContent{
+      max-width: 1260px;
+      display: flex;
+      align-items: center;
+
+      .acordion{
+        width: 50%;
+        height: 650px;
+        padding: 67px;
+
+        .acordionItem{
+          .acordionItemContent{
+            img{
+              display: none;
+            }
+          }
+        }
+      }
+
+      .acordionBigImage{
+        display: block;
+        text-align: center;
+        width: 50%;
+
+        img{
+          width: 100%;
+          max-width: 400px;
+        }
+      }
+    }
+  }
+}
