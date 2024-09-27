@@ -1,0 +1,245 @@
+.whyAppleSection{
+  background-color: #101010;
+  padding: 100px 0;
+
+  .whyAppleSectionHeader{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 38px;
+
+    h2{
+      color: #86868b;
+      max-width: 280px;
+      font-size: 32px;
+      line-height: 1.125;
+      font-weight: 600;
+      letter-spacing: .004em;
+    }
+
+    div{
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      color: #2997FF;
+      cursor: pointer;
+
+      &:hover{
+        text-decoration: underline;
+      }
+
+      p{
+        font-size: 17px;
+        line-height: 1.2353641176;
+        font-weight: 400;
+        letter-spacing: -0.022em;
+      }
+
+      img{
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  .whyAppleSectionContent{
+    overflow: hidden;
+
+    .sliderWrapper{
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      width: 87.5%;
+
+      ul{
+        display: grid;
+        gap: 24px;
+        margin: 25px 0 0;
+        grid-auto-flow: column;
+        width: fit-content;
+        list-style: none;
+  
+        li{
+          width: 334px;
+          height: 350px;
+          background-color: #242426;
+          border-radius: 28px;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+  
+          &>div:first-of-type{
+            img{
+              padding: 14px 0 20px;
+            }
+    
+            h3{
+              font-size: 21px;
+              line-height: 1.1904761905;
+              font-weight: 600;
+              letter-spacing: .011em;
+              color: #F5F5F7;
+            }
+    
+            p{
+              margin-top: 14px;
+              font-size: 17px;
+              line-height: 1.4705882353;
+              font-weight: 400;
+              letter-spacing: -0.022em;
+              color: #F5F5F7;
+            }
+          }
+  
+          &>div:last-of-type{
+            display: flex;
+            justify-content: flex-end;
+  
+            div{
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgb(232 232 237);
+              cursor: pointer;
+  
+              img{
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .whyAppleSliderController{
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      width: 87.5%;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      margin-top: 50px;
+
+      &>div{
+        cursor: pointer;
+        background-color: rgb(51,51,54);
+        border-radius: 36px;
+        width: 36px;
+        height: 36px;
+        padding: 6px;
+
+        &.disabled{
+          opacity: 0.7;
+          cursor: default;
+        }
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 734px){
+  .whyAppleSection{
+    .whyAppleSectionHeader{
+      padding-bottom: 50px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 95%;
+      max-width: 932px;
+
+      h2{
+        max-width: 75%;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: 0em;
+      }
+
+      div{
+        p{
+          font-size: 19px;
+          line-height: 1.2105263158;
+          letter-spacing: .012em;
+        }
+      }
+    }
+
+    .whyAppleSectionContent{
+
+      .sliderWrapper{
+        width: 95%;
+        max-width: 932px;
+
+        ul{
+          li{
+            width: 330px;
+            height: 370px;
+  
+            &>div:first-of-type{
+              h3{
+                font-size: 28px;
+                line-height: 1.1428571429;
+                letter-spacing: .007em;
+              }
+            }
+          }
+        }
+      }
+      
+      .whyAppleSliderController{
+        width: 95%;
+        max-width: 932px;
+      }
+    }
+  }
+}
+
+@media(min-width: 1068px){
+  .whyAppleSection{
+    .whyAppleSectionHeader{
+      max-width: 1260px;
+
+      h2{
+        font-size: 48px;
+        line-height: 1.0834933333;
+        letter-spacing: -0.003em;
+      }
+
+      div{
+        p{
+          font-size: 21px;
+          line-height: 1.1904761905;
+          letter-spacing: .011em;
+        }
+      }
+    }
+
+    .whyAppleSectionContent{
+      .sliderWrapper{
+        max-width: 1260px;
+
+        ul{  
+          li{
+            width: 372px;
+            height: 346px;
+          }
+        }
+      }
+
+      .whyAppleSliderController{
+        max-width: 1260px;
+      }
+    }
+  }
+}

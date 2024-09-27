@@ -7,6 +7,7 @@ My personal clone page - iPhone 15 Pro
 * React + Vite
 * R3F
 * GSAP
+* SCSS Modules
 
 ## Demo
 

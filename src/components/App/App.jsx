@@ -13,6 +13,7 @@ import TradeBaner from "../TradeBanner/TradeBanner"
 import UsbcSection from "../UsbcSection/UsbcSection"
 import ValuesSection from "../ValuesSection/ValuesSection"
 import WelcomeSection from "../WelcomeSection/WelcomeSection"
+import WhyAppleSection from "../WhyAppleSection/WhyAppleSection"
 import Zoom5xSection from "../Zoom5xSection/Zoom5xSection"
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
       <ValuesSection></ValuesSection>
       <Ios17Section></Ios17Section>
       <EcosystemSection></EcosystemSection>
+      <WhyAppleSection></WhyAppleSection>
     </>
   )
 }
