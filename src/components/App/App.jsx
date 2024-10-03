@@ -3,6 +3,7 @@ import BatterySection from "../BatterySection/BatterySection"
 import CameraSection from "../CameraSection/CameraSection"
 import ChipSection from "../ChipSection/ChipSection"
 import CloserLookSection from "../CloserLookSection/CloserLookSection"
+import ContrastSection from "../ContrastSection/ContrastSection"
 import DesignSection from "../DesignSection/DesignSection"
 import EcosystemSection from "../EcosystemSection/EcosystemSection"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
@@ -36,6 +37,7 @@ const App = () => {
       <Ios17Section></Ios17Section>
       <EcosystemSection></EcosystemSection>
       <WhyAppleSection></WhyAppleSection>
+      <ContrastSection></ContrastSection>
     </>
   )
 }
