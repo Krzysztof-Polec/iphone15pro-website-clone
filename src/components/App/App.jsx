@@ -6,6 +6,7 @@ import CloserLookSection from "../CloserLookSection/CloserLookSection"
 import ContrastSection from "../ContrastSection/ContrastSection"
 import DesignSection from "../DesignSection/DesignSection"
 import EcosystemSection from "../EcosystemSection/EcosystemSection"
+import Footer from "../Footer/Footer"
 import HighlightsSection from "../HighlightsSection/HighlightsSection"
 import Ios17Section from "../Ios17Section/Ios17Section"
 import Nav from "../Nav/Nav"
@@ -38,6 +39,7 @@ const App = () => {
       <EcosystemSection></EcosystemSection>
       <WhyAppleSection></WhyAppleSection>
       <ContrastSection></ContrastSection>
+      <Footer></Footer>
     </>
   )
 }
